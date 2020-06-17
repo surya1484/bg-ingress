@@ -6,5 +6,5 @@ metadata:
     kubernetes.io/ingress.class: "gce"
 spec:
   backend:
-    serviceName: webserver-production
+    serviceName: webserver-smoketest
     servicePort:
