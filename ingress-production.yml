@@ -1,0 +1,10 @@
+apiVersion: apps/v1
+kind: Ingress
+metadata:
+  name: ingress-production
+  annotations: 
+    kubernetes.io/ingress.class: "gce"
+spec:
+  backend:
+    serviceName: webserver-production
+    servicePort: 
